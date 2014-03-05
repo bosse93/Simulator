@@ -5,7 +5,7 @@ public class Main {
 	//kör biltvätt
 	public static void main(String[] args) {
 		Simulator carWash = new Simulator();
-
+		
 	}
 
 }
