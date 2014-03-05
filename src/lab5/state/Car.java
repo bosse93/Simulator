@@ -4,8 +4,8 @@ public class Car {
 
 	private int id;
 	
-	public Car(){
-		this.id = 
+	public Car(int id){
+		this.id = id;
 	}
 	
 }
