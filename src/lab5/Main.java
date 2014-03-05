@@ -1,9 +1,9 @@
 package lab5;
-
+import lab5.simulator.*;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Simulator carWash = new Simulator();
 
 	}
 
