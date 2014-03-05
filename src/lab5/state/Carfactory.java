@@ -1,5 +1,10 @@
 package lab5.state;
 
-public class Carfactory {
+public class Carfactory{
+	private int numberOfCars = 0;
+	
+	public void createCar(){
+		
+	}
 
 }
