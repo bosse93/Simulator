@@ -1,5 +1,7 @@
 package lab5.state;
 
+import java.util.ArrayList;
+
 public class CarWashstate {
 	private double queueTime;
 	private int queueSize;
@@ -10,8 +12,10 @@ public class CarWashstate {
 		//Skall det finnas en klass för tvättar? Vart finns annars våra carWashes?
 		Carfactory fabrik = new Carfactory();
 		FIFO carQueue = new FIFO();
-		carWash snabb = new carWash();
-		carWash seg = new carWash();
+		ArrayList<carWash> fast = new ArrayList<carWash>();
+		ArrayList<carWash> slow = new ArrayList<carWash>();
+		//hur kollar vi efter tomma tvättar? Lista? Kollar båda listorna?
+		
 	}
 	
 	/**
@@ -38,7 +42,7 @@ public class CarWashstate {
 		if(carWashIdle()){
 			return idleTime++;
 		}
-		return idleTime = 0;
+		return idleTime;
 	}
 	
 	
