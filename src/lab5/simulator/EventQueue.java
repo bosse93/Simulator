@@ -1,5 +1,12 @@
 package lab5.simulator;
 
-public class EventQueue {
+/*Takes a sortedsequence and puts them in a queue.
+ * 
+ */
 
+public class EventQueue {
+	
+	public Event nextEvent(sortedSequence s){
+		
+	}
 }
