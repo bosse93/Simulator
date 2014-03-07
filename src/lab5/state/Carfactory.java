@@ -1,14 +1,16 @@
 package lab5.state;
 
 public class Carfactory{
-//	private int numberOfCars = 0;
-	private int id = 0;
+	private int id = -1;
 	
-	public void createCar(){
-	Car car = new Car(id++);
+	public Car createCar(){
+		id++;
+		Car car = new Car(id);
+		return car;
 	}
 	
-	public int getId(){
+	//onödig? Behöver vi veta hur många bilar vi skapat?
+	public int getTotalCars(){
 		return id;
 	}
 	

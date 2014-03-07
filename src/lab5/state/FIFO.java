@@ -64,4 +64,9 @@ public class FIFO {
 		//return 0;
 	}
 	
+	//onödig? addar på plats p, int id
+	public void insert(int p, int id){
+		list.add(p, id);
+	}
+	
 }

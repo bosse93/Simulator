@@ -7,5 +7,13 @@ public class Car {
 	public Car(int id){
 		this.id = id;
 	}
+
+
+	public int getId() {
+		return this.id;
+	}
+	
+	//ska bilen hålla koll påkötider etc?
+
 	
 }
